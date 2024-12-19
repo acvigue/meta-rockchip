@@ -11,6 +11,7 @@ COMPATIBLE_MACHINE:rock-pi-4 = "rock-pi-4"
 COMPATIBLE_MACHINE:nanopi-m4 = "nanopi-m4"
 COMPATIBLE_MACHINE:nanopi-m4-2gb = "nanopi-m4-2gb"
 COMPATIBLE_MACHINE:rock64 = "rock64"
+COMPATIBLE_MACHINE:orangepi-cm4 = "orangepi-cm4"
 COMPATIBLE_MACHINE:rock-pi-e = "rock-pi-e"
 COMPATIBLE_MACHINE:nanopi-r4s = "nanopi-r4s"
 COMPATIBLE_MACHINE:nanopi-r2s = "nanopi-r2s"
@@ -26,3 +27,5 @@ COMPATIBLE_MACHINE:soquartz = "soquartz"
 
 SRC_URI:append = " file://rockchip-kmeta;type=kmeta;name=rockchip-kmeta;destsuffix=rockchip-kmeta"
 SRC_URI:append:nanopi-r4s = " file://nanopi-r4s.scc"
+
+SRC_URI_append:orangepi-cm4 = "file://rk3566-orangepi-cm4.dts;subdir=git/arch/arm64/boot/dts/rockchip"
