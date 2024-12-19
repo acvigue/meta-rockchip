@@ -29,4 +29,3 @@ SRC_URI:append = " file://rockchip-kmeta;type=kmeta;name=rockchip-kmeta;destsuff
 SRC_URI:append:nanopi-r4s = " file://nanopi-r4s.scc"
 
 SRC_URI:append:orangepi-cm4 = " file://rk3566-orangepi-cm4.dts;subdir=git/arch/arm64/boot/dts/rockchip"
-SRC_URI:append:orangepi-cm4 = " file://orangepi-cm4-rk3566_defconfig;subdir=git/arch/arm64/boot/dts/rockchip"
